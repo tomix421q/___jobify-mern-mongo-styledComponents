@@ -1,7 +1,7 @@
 import Job from './Job'
 import Wrapper from '../assets/wrappers/JobsContainer'
 import { useAllJobsContext } from '../pages/AllJobs'
-import PageBtnContainer from '../components'
+import PageBtnContainer from './PageBtnContainer'
 
 function JobsContainer() {
   const { data } = useAllJobsContext()
